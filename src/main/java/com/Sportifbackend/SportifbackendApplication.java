@@ -42,7 +42,7 @@ public class SportifbackendApplication {
 		WebElement password=driver.findElement(By.id("password"));
 		password.sendKeys("admin");
         driver.findElement(By.xpath("/html/body/app-root/div/body/app-login/div/form/input[3]")).click();       
-        Thread.sleep(3000);
+        Thread.sleep(5000);
         WebElement searchBox=driver.findElement(By.xpath("//*[@id=\"navbarSupportedContent\"]/form/input"));
         searchBox.sendKeys("ball");
         searchBox.sendKeys(Keys.ENTER);
